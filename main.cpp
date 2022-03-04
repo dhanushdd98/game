@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <string>
-
+#include <cctype>
 
 using namespace std;
 int N,A[1000][1000]={0},x,y,x1,y1,bx,by,ballcount,wallhit=0,flag=0,baseR,baseL,Bhit=0;
